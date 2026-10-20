@@ -3,6 +3,14 @@
 // Example: Input: 58423 -> Output: Sum is 22
 
 let number = 58423; // INPUT
+let sum=0;
+while(number>0)
+{
+    let numS= number%10;
+    sum=numS+sum;
+    number = Math.floor(number / 10);
+}
+console.log("Sum is "+ sum)
 
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
