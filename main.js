@@ -6,9 +6,19 @@
 // ***
 // ****
 
-let rows = 4; // INPUT
-
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
 
+
+let rows = 4; // INPUT
+for (let i = 1; i <= rows; i++)
+{
+    let count=0
+    let line = ""
+    while(count<i){
+        line= line +"*"
+        count++
+        }
+    console.log(line)
+}
