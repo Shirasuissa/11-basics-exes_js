@@ -11,4 +11,13 @@ let fifth = 5; // INPUT
 // (keep the "// INPUT" comments - the tests use them to try other values)
 
 // write your code below this line
-
+let max= first
+if (max<second)
+    max=second
+if(max<third)
+    max=third
+if(max<fourth)
+    max=fourth
+if(max<fifth)
+    max=fifth
+console.log("Largest is " + max)
